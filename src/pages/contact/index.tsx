@@ -1,7 +1,7 @@
 import classes from "./styles.module.css";
 import { TfiEmail } from "react-icons/tfi";
 import Triangle from "./triangle ";
-import { FiPhoneCall, FiMail, FiGithub } from "react-icons/fi";
+import { FiPhoneCall } from "react-icons/fi";
 import AnimationWrapper from "../../core/animation-wrapper";
 
 const ContactPage = () => {

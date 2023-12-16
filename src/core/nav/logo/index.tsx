@@ -1,5 +1,4 @@
 import classes from "./styles.module.css";
-import { GiElephant } from "react-icons/gi";
 
 const Logo = () => {
   return (
