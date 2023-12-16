@@ -1,0 +1,23 @@
+.navBar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  border-bottom: 3px solid rgb(78, 139, 236);
+}
+
+.listContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-right: 15px;
+}
+
+@media (max-width: 600px) {
+  .listContainer {
+    display: none;
+  }
+}

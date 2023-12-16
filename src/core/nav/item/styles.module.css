@@ -1,0 +1,15 @@
+.active {
+  all: unset;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.notActive {
+  all: unset;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

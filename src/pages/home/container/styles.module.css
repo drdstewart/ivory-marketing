@@ -1,0 +1,50 @@
+.containerDesktop {
+  display: flex;
+  padding-bottom: 40px;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.mobile {
+  display: none;
+  margin-bottom: 50px;
+}
+
+.mobileText {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+}
+
+.containerMobile {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  border-radius: 1000px;
+  object-fit: cover;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+@media (max-width: 650px) {
+  .containerDesktop {
+    display: none;
+  }
+
+  .image {
+    padding-right: 10px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .mobile {
+    display: block;
+  }
+}

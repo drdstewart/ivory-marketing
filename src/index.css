@@ -2,22 +2,12 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
 
-  background-color: rgba(235, 225, 224, 1);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-  font-size: 60px;
-  font-family: Viga;
-}
-
-@media (max-width: 1150px) {
-  h1 {
-    font-size: 30px;
-    text-align: center;
-  }
+h3 {
+  margin: 0;
 }
