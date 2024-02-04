@@ -5,6 +5,7 @@
   justify-content: space-between;
   height: 75px;
   border-bottom: 3px solid rgb(78, 139, 236);
+  align-items: center;
 }
 
 .listContainer {

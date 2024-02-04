@@ -9,7 +9,7 @@ const ContactPage = () => {
     <>
       <AnimationWrapper>
         <div className={classes.top}>
-          <h1>Want to get in contact?</h1>
+          <div className={classes.title}>Want to get in contact?</div>
           <div className={classes.intro}>
             Curious about out services or would like to collaborate? We would
             love to hear form you.

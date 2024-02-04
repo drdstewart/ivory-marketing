@@ -1,10 +1,9 @@
 .active {
   all: unset;
-  background-color: white;
-  color: black;
   padding: 10px;
-  border-radius: 5px;
   cursor: pointer;
+  font-family: Teko;
+  font-size: 22px;
 }
 
 .notActive {
@@ -12,4 +11,11 @@
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
+  color: rgb(130, 130, 130);
+  font-family: Teko;
+  font-size: 22px;
+}
+
+.notActive:hover {
+  color: white;
 }

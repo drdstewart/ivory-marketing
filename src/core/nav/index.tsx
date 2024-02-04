@@ -11,7 +11,7 @@ const NavBar = () => {
       <MobileNav />
 
       <div className={classes.listContainer}>
-        <NavButton route={"/"} name={"About Us"} />
+        <NavButton route={"/"} name={"About"} />
         <NavButton route={"/services"} name={"Services"} />
         <NavButton route={"/contact"} name={"Contact"} />
       </div>
