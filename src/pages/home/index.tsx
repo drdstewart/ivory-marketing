@@ -10,10 +10,8 @@ const HomePage = () => {
       <DarkBox
         title={"EXPERTS IN TECHNOLOGY"}
         body={`With a core focus on technology, our company brings a depth of
-          expertise that drives innovation and efficiency. Our team of tech
-          deliver cutting-edge solutions tailored to meet the evolving needs of
-          professionals is adept at harnessing the latest advancements to
-          the public sector.`}
+          expertise that drives innovation and efficiency. Our team of tech experts
+          deliver cutting-edge solutions tailored to meet the evolving needs of the public and private sectors.`}
         image={"/images/laptop.png"}
         direction={"textLeft"}
       />

@@ -24,7 +24,7 @@ const ServicesPage = () => {
               us to build fluid, responsive designs. We use industry standard
               software to produce our visualisations on how we think your
               software should look and feel. We can also produce rapid,
-              interactive proof of concept designs to give you an idea of a
+              interactive prototypes or proof of concept designs to give you an idea of a
               direction we might want to take.`}
         image={"/images/design.avif"}
         direction={"textLeft"}
