@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import styles from "./styles.module.css";
 
 const RotatingWord = () => {
@@ -33,7 +33,7 @@ const RotatingWord = () => {
       );
 
       // Hide letters of current word one by one
-      currentWordLetters.forEach((letter, i) => {
+      currentWordLetters.forEach((letter: any, i) => {
         setTimeout(() => {
           letter.style.opacity = "0";
           letter.style.transform = "translateY(100%)";
@@ -42,7 +42,7 @@ const RotatingWord = () => {
 
       // Show letters of next word after hiding current word
       setTimeout(() => {
-        nextWordLetters.forEach((letter, i) => {
+        nextWordLetters.forEach((letter: any, i) => {
           letter.style.opacity = "0";
           letter.style.transform = "translateY(-100%)";
           setTimeout(() => {
