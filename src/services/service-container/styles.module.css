@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(128, 78, 240, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(128, 78, 240, 0);
+  }
+}
+
+.iconContainer {
+  border: 1px solid rgb(65, 4, 65);
+  padding: 20px;
+  border-radius: 10px;
+  animation: pulse 2s infinite;
+}

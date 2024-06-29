@@ -1,11 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { RouterProvider } from "react-router-dom";
-import { router } from "./routes";
+import About from "./about";
+import Services from "./services";
+import Backdrop from "./backdrop";
+import TopBar from "./top-bar";
+import Contact from "./contact";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Backdrop />
+
+    <TopBar />
+    <About />
+    <Services />
+    <Contact />
   </React.StrictMode>
 );

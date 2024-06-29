@@ -1,0 +1,9 @@
+.container {
+  z-index: 2;
+  position: relative;
+}
+
+.logo {
+  width: 200px;
+  padding: 15px;
+}

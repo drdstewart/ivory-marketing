@@ -1,0 +1,68 @@
+.services {
+  display: flex;
+  justify-content: center;
+  height: 110vh;
+  background: linear-gradient(
+    0deg,
+    rgb(239, 209, 226) 0%,
+    rgba(255, 255, 255, 1) 26%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  z-index: -1;
+}
+
+.innerServices {
+  padding-top: 200px;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.serviceContainers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.wideServicesText {
+  font-size: 18px;
+  color: rgb(88, 4, 88);
+  font-weight: 500;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.transformingText {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.bodyText {
+  color: rgb(77, 77, 77);
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.button {
+  all: unset;
+  color: white;
+  background-color: rgb(88, 4, 88);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+}
+
+.button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  .innerServices {
+    padding-top: 100px;
+  }
+}
