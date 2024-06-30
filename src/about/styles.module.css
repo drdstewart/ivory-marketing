@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   z-index: 10;
+  margin-top: 40px;
 }
 
 .innerContent {
@@ -61,5 +62,9 @@
 
   .title {
     font-size: 40px;
+  }
+
+  .button {
+    margin-top: 15px;
   }
 }
